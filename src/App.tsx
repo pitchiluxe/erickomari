@@ -19,6 +19,8 @@ import { CREATOR_PROFILE, CREATOR_PROJECTS } from './data/profile';
 // automatically. Falls back to the bundled asset if the file is missing.
 const AVATAR_SRC = '/avatar.jpg';
 
+const SITE_URL = 'https://erickomari.vercel.app';
+
 const CATEGORIES = [
   'All',
   'AI & Machine Learning',
@@ -41,6 +43,7 @@ export default function App() {
   return (
     <div className="bg-grid min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-10">
+        <h1 className="sr-only">Erick Omari — Full-Stack Software Architect & AI Systems Engineer</h1>
         {/* Creator Hero Header */}
         <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#121622] via-[#0f172a] to-[#1e1b4b] border border-slate-800/80 p-6 sm:p-10 shadow-2xl">
           <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
@@ -187,10 +190,10 @@ export default function App() {
         </section>
 
         {/* Projects Showcase Section */}
-        <section className="space-y-6">
+        <section id="projects" aria-labelledby="projects-heading" className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
-              <h2 className="text-2xl font-bold text-slate-100 tracking-tight flex items-center gap-2.5">
+              <h2 id="projects-heading" className="text-2xl font-bold text-slate-100 tracking-tight flex items-center gap-2.5">
                 <Globe className="w-6 h-6 text-blue-400" />
                 <span>Deployed Vercel Applications &amp; Projects</span>
               </h2>
@@ -225,6 +228,8 @@ export default function App() {
               <article
                 key={project.id}
                 className="group relative flex flex-col justify-between rounded-2xl bg-[#121622] border border-slate-800/80 hover:border-blue-500/50 p-5 sm:p-6 transition-all duration-200 hover:shadow-xl hover:shadow-blue-500/5 hover:-translate-y-1"
+                itemScope
+                itemType="https://schema.org/SoftwareApplication"
               >
                 <div className="space-y-3">
                   <div className="flex items-start justify-between gap-2">
@@ -245,13 +250,15 @@ export default function App() {
                     )}
                   </div>
 
-                  <h3 className="text-base font-bold text-slate-100 group-hover:text-blue-300 transition-colors leading-snug">
+                  <h3 className="text-base font-bold text-slate-100 group-hover:text-blue-300 transition-colors leading-snug" itemProp="name">
                     {project.title}
                   </h3>
 
-                  <p className="text-xs font-medium text-slate-400 leading-relaxed line-clamp-3">
+                  <p className="text-xs font-medium text-slate-400 leading-relaxed line-clamp-3" itemProp="description">
                     {project.description}
                   </p>
+                  {project.liveUrl && <meta itemProp="url" content={project.liveUrl} />}
+                  <meta itemProp="applicationCategory" content={project.category} />
                 </div>
 
                 <div className="mt-4 pt-4 border-t border-slate-800/60 space-y-4">
@@ -339,6 +346,50 @@ export default function App() {
         <footer className="pt-6 pb-2 text-center text-[11px] text-slate-500">
           © {new Date().getFullYear()} {CREATOR_PROFILE.name} — Built with React, Tailwind CSS, and Vite.
         </footer>
+
+        {/* Per-project JSON-LD so each card has its own rich-result entry.
+            Plain <script type="application/ld+json"> is the only safe way to
+            embed structured data from a single-page React app. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'ItemList',
+              name: `${CREATOR_PROFILE.name} — Deployed Projects`,
+              itemListElement: CREATOR_PROJECTS.map((p, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                name: p.title,
+                url: p.liveUrl || p.githubUrl,
+                description: p.tagline
+              }))
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                {
+                  '@type': 'ListItem',
+                  position: 1,
+                  name: 'Home',
+                  item: SITE_URL + '/'
+                },
+                {
+                  '@type': 'ListItem',
+                  position: 2,
+                  name: 'Projects',
+                  item: SITE_URL + '/#projects'
+                }
+              ]
+            })
+          }}
+        />
       </div>
     </div>
   );

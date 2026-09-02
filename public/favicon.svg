@@ -1,10 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="0.5" stop-color="#6366f1"/>
       <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <clipPath id="photoClip">
+      <circle cx="32" cy="32" r="20"/>
+    </clipPath>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#g)"/>
-  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-weight="800" font-size="30" fill="#fff">E</text>
+  <!-- Gradient ring -->
+  <circle cx="32" cy="32" r="30" fill="url(#ring)"/>
+  <!-- Inner dark backing -->
+  <circle cx="32" cy="32" r="22" fill="url(#bg)"/>
+  <!-- Monogram fallback (used by browsers that don't render raster <image>) -->
+  <text x="50%" y="56%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-weight="800" font-size="22" fill="#e2e8f0">EO</text>
 </svg>

@@ -1,14 +1,162 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0f1a" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- Primary SEO -->
     <title>Erick Omari — Full-Stack Software Architect & AI Systems Engineer</title>
-    <meta name="description" content="Portfolio of Erick Omari (pitchiluxe): full-stack software architect, AI systems engineer, and creator of AIHub, CCNA Academy, CyberGuard AI, IAM & SSO 3D Lab, and more." />
+    <meta name="title" content="Erick Omari — Full-Stack Software Architect & AI Systems Engineer" />
+    <meta
+      name="description"
+      content="Portfolio of Erick Omari (GitHub: pitchiluxe) — Full-Stack Software Architect and AI Systems Engineer. 15 live deployed Vercel applications: SchedulePlanner 2.0, CCNA Academy, AIHub, CyberGuard AI, IAM & SSO 3D Lab, Technobiztrader, CodeCraftr, Phishforge, and more."
+    />
+    <meta
+      name="keywords"
+      content="Erick Omari, pitchiluxe, full-stack software architect, AI systems engineer, React developer, TypeScript, Express, AIHub, CCNA Academy, SchedulePlanner, CyberGuard AI, IAM SSO 3D Lab, portfolio, web developer, Vercel"
+    />
+    <meta name="author" content="Erick Omari" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="application-name" content="Erick Omari Portfolio" />
+    <meta name="generator" content="React 19 + Vite 6" />
+    <link rel="canonical" href="https://erickomari.vercel.app/" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://erickomari.vercel.app/" />
+    <meta property="og:title" content="Erick Omari — Full-Stack Software Architect & AI Systems Engineer" />
+    <meta
+      property="og:description"
+      content="15 live deployed Vercel applications — AI productivity suites, cybersecurity training labs, IAM & SSO 3D simulation, real-time SOC monitoring, and developer-first tools. Built by Erick Omari."
+    />
+    <meta property="og:image" content="https://erickomari.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Erick Omari — Full-Stack Software Architect & AI Systems Engineer" />
+    <meta property="og:site_name" content="Erick Omari Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://erickomari.vercel.app/" />
+    <meta name="twitter:title" content="Erick Omari — Full-Stack Software Architect & AI Systems Engineer" />
+    <meta
+      name="twitter:description"
+      content="15 live deployed Vercel applications — AI productivity suites, cybersecurity training labs, IAM & SSO 3D simulation, real-time SOC monitoring, and developer-first tools."
+    />
+    <meta name="twitter:image" content="https://erickomari.vercel.app/og-image.png" />
+    <meta name="twitter:image:alt" content="Erick Omari — Full-Stack Software Architect & AI Systems Engineer" />
+    <meta name="twitter:creator" content="@eomari" />
+    <meta name="twitter:site" content="@eomari" />
+
+    <!-- Crawler hints -->
+    <meta name="google-site-verification" content="" />
+    <meta name="msvalidate.01" content="" />
+    <meta name="yandex-verification" content="" />
+
+    <!-- Structured data: Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erick Omari",
+        "alternateName": "pitchiluxe",
+        "url": "https://erickomari.vercel.app/",
+        "image": "https://erickomari.vercel.app/og-image.png",
+        "description": "Full-Stack Software Architect and AI Systems Engineer. Creator of 15 deployed Vercel applications including SchedulePlanner 2.0, AIHub, CCNA Academy, CyberGuard AI, and the IAM & SSO 3D Lab.",
+        "jobTitle": "Full-Stack Software Architect & AI Systems Engineer",
+        "knowsAbout": [
+          "TypeScript",
+          "React 19",
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "Local LLMs (Ollama)",
+          "OpenRouter",
+          "Cybersecurity",
+          "IAM / SSO / SAML / OIDC",
+          "MITRE ATT&CK",
+          "SOC Monitoring",
+          "Algorithmic Trading",
+          "Obsidian Knowledge Graphs",
+          "SuperMemo SM-2"
+        ],
+        "sameAs": [
+          "https://github.com/pitchiluxe",
+          "https://www.linkedin.com/in/erickomari/",
+          "https://x.com/eomari",
+          "https://www.technobiztrader.net/"
+        ],
+        "worksFor": { "@type": "Organization", "name": "Independent" }
+      }
+    </script>
+
+    <!-- Structured data: WebSite + SearchAction -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Erick Omari Portfolio",
+        "url": "https://erickomari.vercel.app/",
+        "inLanguage": "en-US",
+        "publisher": {
+          "@type": "Person",
+          "name": "Erick Omari"
+        }
+      }
+    </script>
+
+    <!-- Structured data: ItemList of featured projects -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Deployed Vercel Applications by Erick Omari",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "SchedulePlanner 2.0", "url": "https://scheduleplanner-rho.vercel.app" },
+          { "@type": "ListItem", "position": 2, "name": "CCNA Academy", "url": "https://ccna-certification.vercel.app" },
+          { "@type": "ListItem", "position": 3, "name": "AIHub", "url": "https://aihub-eight-xi.vercel.app" },
+          { "@type": "ListItem", "position": 4, "name": "Technobiztrader", "url": "https://technobiz-trader-agent.vercel.app/" },
+          { "@type": "ListItem", "position": 5, "name": "CodeCraftr", "url": "https://codecraftr-gamma.vercel.app/" },
+          { "@type": "ListItem", "position": 6, "name": "Phishforge", "url": "https://phishforge-ai.vercel.app/" },
+          { "@type": "ListItem", "position": 7, "name": "CyberGuard AI", "url": "https://cyberguard-ai-gamma.vercel.app" },
+          { "@type": "ListItem", "position": 8, "name": "IAM & SSO 3D Lab", "url": "https://iamsso3dlab.vercel.app/" },
+          { "@type": "ListItem", "position": 9, "name": "Cloud Engineer Lab", "url": "https://cloudengineerlab.vercel.app" },
+          { "@type": "ListItem", "position": 10, "name": "IT Support Lab", "url": "https://it-support-lab.vercel.app" }
+        ]
+      }
+    </script>
   </head>
   <body class="bg-[#0b0f1a]">
+    <a
+      href="#projects"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-lg"
+    >
+      Skip to main content
+    </a>
     <div id="root"></div>
+    <noscript>
+      <div style="padding: 24px; color: #e2e8f0; font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto;">
+        <h1 style="font-size: 28px; margin: 0 0 12px;">Erick Omari — Full-Stack Software Architect & AI Systems Engineer</h1>
+        <p style="font-size: 16px; line-height: 1.6; color: #94a3b8;">
+          This portfolio requires JavaScript to render the live project gallery. View the source on
+          <a style="color: #60a5fa;" href="https://github.com/pitchiluxe/erickomari">github.com/pitchiluxe/erickomari</a>
+          for the full list of 15 deployed Vercel applications including SchedulePlanner 2.0, CCNA Academy, AIHub,
+          CyberGuard AI, and the IAM &amp; SSO 3D Lab.
+        </p>
+      </div>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
