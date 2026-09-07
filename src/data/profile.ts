@@ -29,7 +29,7 @@ export const CREATOR_PROFILE = {
   linkedin: 'https://www.linkedin.com/in/erickomari/',
   twitter: 'https://x.com/eomari',
   experienceYears: '7+ Years',
-  totalProjects: 15,
+  totalProjects: 16,
   coreSkills: [
     'TypeScript & React 19 / Next.js',
     'AI Agents & LLM Orchestration',
@@ -76,6 +76,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'CERTIFICATION ACADEMY',
     stars: 142,
     stats: '10,000+ Questions Solved'
+  },
+  {
+    id: 'proj-iam-os',
+    title: 'IAM OS',
+    tagline: 'Simulated Windows Workstation for Identity & Privileged Access Management Training',
+    description: 'A simulated Windows workstation for practicing Identity and Access Management and Privileged Identity Management. Features a real directory that can be misconfigured to demonstrate realistic IAM behaviors, including Active Directory management, PowerShell scripting, cloud identity integration (Okta/Entra ID), and ticket workflows.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://iam-range.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/iam-range',
+    tags: ['Active Directory', 'PowerShell', 'Okta / Entra ID', 'Electron', 'Vue.js', 'Vercel Live'],
+    featured: true,
+    badge: 'IAM WORKSTATION SIM',
+    stars: 0,
+    stats: 'Real Directory Simulation'
   },
   {
     id: 'proj-aihub',
