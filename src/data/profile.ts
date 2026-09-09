@@ -120,6 +120,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Zero to Hero Training'
   },
   {
+    id: 'proj-iam-sso-3d-lab',
+    title: 'IAM & SSO 3D Lab',
+    tagline: 'Learn Identity & Access Management the Way the Work Actually Looks — Walkable 3D Enterprise Campus, Socratic AI Tutor, Real Ticket Flow',
+    description: 'A job-ready 3D training lab for Identity & Access Management, SSO/SAML/OIDC, MFA, RBAC, access reviews, and incident response. Learners walk a fully modeled 3D enterprise campus — IAM Ops floor, SOC, ticket queue, and interactive workstation consoles — to complete thirteen enterprise scenarios covering federation, lifecycle, hardening, break/fix drills, and a capstone gated at 85%. A Socratic AI tutor escalates a nudge → question → approach → solution ladder instead of handing out answers, every ticket triage, escalation, and closure is logged and scored against a six-category 100-point rubric (execution, troubleshooting, least-privilege, documentation, evidence, communication), and the same codebase ships as a Three.js/WebGL browser build and a signed Windows Electron desktop installer. All credentials and entities are fictional; MIT-licensed.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://iamsso3dlab.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/iam-sso-3d-lab',
+    tags: ['Three.js / WebGL', '13 IAM Scenarios', 'Socratic AI Tutor', 'Ticket Triage & Scoring', 'Electron Desktop', 'MIT Licensed'],
+    featured: true,
+    badge: '3D IAM TRAINING LAB',
+    stars: 0,
+    stats: 'Walkable 3D Campus'
+  },
+  {
     id: 'proj-aihub',
     title: 'AIHub',
     tagline: 'Intelligence Hub for AI News, Research Breakthroughs & Model Releases',
@@ -271,20 +285,6 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'CLOUD ENGINEER LAB',
     stars: 0,
     stats: 'Evidence-Driven Scoring'
-  },
-  {
-    id: 'proj-iam-sso-3d-lab',
-    title: 'IAM & SSO 3D Lab',
-    tagline: 'Learn Identity & Access Management the Way the Work Actually Looks — Walkable 3D Enterprise Campus, Socratic AI Tutor, Real Ticket Flow',
-    description: 'A job-ready 3D training lab for Identity & Access Management, SSO/SAML/OIDC, MFA, RBAC, access reviews, and incident response. Learners walk a fully modeled 3D enterprise campus — IAM Ops floor, SOC, ticket queue, and interactive workstation consoles — to complete thirteen enterprise scenarios covering federation, lifecycle, hardening, break/fix drills, and a capstone gated at 85%. A Socratic AI tutor escalates a nudge → question → approach → solution ladder instead of handing out answers, every ticket triage, escalation, and closure is logged and scored against a six-category 100-point rubric (execution, troubleshooting, least-privilege, documentation, evidence, communication), and the same codebase ships as a Three.js/WebGL browser build and a signed Windows Electron desktop installer. All credentials and entities are fictional; MIT-licensed.',
-    category: 'Cybersecurity & Labs',
-    liveUrl: 'https://iamsso3dlab.vercel.app/',
-    githubUrl: 'https://github.com/pitchiluxe/iam-sso-3d-lab',
-    tags: ['Three.js / WebGL', '13 IAM Scenarios', 'Socratic AI Tutor', 'Ticket Triage & Scoring', 'Electron Desktop', 'MIT Licensed'],
-    featured: true,
-    badge: '3D IAM TRAINING LAB',
-    stars: 0,
-    stats: 'Walkable 3D Campus'
   },
   {
     id: 'proj-cyberguard-ai',
