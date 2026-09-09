@@ -29,7 +29,7 @@ export const CREATOR_PROFILE = {
   linkedin: 'https://www.linkedin.com/in/erickomari/',
   twitter: 'https://x.com/eomari',
   experienceYears: '7+ Years',
-  totalProjects: 16,
+  totalProjects: 17,
   coreSkills: [
     'TypeScript & React 19 / Next.js',
     'AI Agents & LLM Orchestration',
@@ -90,6 +90,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'IAM WORKSTATION SIM',
     stars: 0,
     stats: 'Real Directory Simulation'
+  },
+  {
+    id: 'proj-comptia-securityplus-3d-lab',
+    title: 'CompTIA Security+ Zero to Hero 3D Lab',
+    tagline: 'From Zero to Security+ Certified — Interactive 3D Cybersecurity Training Lab',
+    description: 'An immersive 3D certification lab that takes learners from foundational concepts to exam-ready CompTIA Security+ proficiency through interactive scenarios, hands-on threat simulations, cryptography exercises, identity and access management drills, and risk assessment workflows.',
+    category: 'Education & Labs',
+    liveUrl: 'https://comptiasecuritypluslab.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/CompTIA-SecurityPlus-Zero-to-Hero-3D-Lab',
+    tags: ['CompTIA Security+', '3D Lab', 'Certification Prep', 'Cybersecurity Training', 'Vercel Live'],
+    featured: true,
+    badge: 'SECURITY+ CERT LAB',
+    stars: 0,
+    stats: 'Zero to Hero Training'
   },
   {
     id: 'proj-aihub',
