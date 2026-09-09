@@ -134,6 +134,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Walkable 3D Campus'
   },
   {
+    id: 'proj-techbench',
+    title: 'Cybersecurity Academy & IT Training Lab',
+    tagline: 'Train Like a Real Tier-1 Technician with Interactive Workbench Labs',
+    description: 'Immersive IT support workbench simulating real-world helpdesk tickets, Active Directory tasks, network diagnostics, hardware troubleshooting, and Tier-1 technician challenges.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://techbench-academy.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/cybersecurity-academy',
+    tags: ['Tier-1 Technician', 'Helpdesk Lab', 'Cybersecurity', 'Diagnostic Workbench', 'IT Support'],
+    featured: true,
+    badge: 'HANDS-ON IT LAB',
+    stars: 156,
+    stats: 'Real-World Ticket Sim'
+  },
+  {
     id: 'proj-aihub',
     title: 'AIHub',
     tagline: 'Intelligence Hub for AI News, Research Breakthroughs & Model Releases',
@@ -217,20 +231,7 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stars: 64,
     stats: 'High Pass Rate Prep'
   },
-  {
-    id: 'proj-techbench',
-    title: 'Cybersecurity Academy & IT Training Lab',
-    tagline: 'Train Like a Real Tier-1 Technician with Interactive Workbench Labs',
-    description: 'Immersive IT support workbench simulating real-world helpdesk tickets, Active Directory tasks, network diagnostics, hardware troubleshooting, and Tier-1 technician challenges.',
-    category: 'Cybersecurity & Labs',
-    liveUrl: 'https://techbench-academy.vercel.app',
-    githubUrl: 'https://github.com/pitchiluxe/cybersecurity-academy',
-    tags: ['Tier-1 Technician', 'Helpdesk Lab', 'Cybersecurity', 'Diagnostic Workbench', 'IT Support'],
-    featured: true,
-    badge: 'HANDS-ON IT LAB',
-    stars: 156,
-    stats: 'Real-World Ticket Sim'
-  },
+
   {
     id: 'proj-congo',
     title: 'Congo Solution',
