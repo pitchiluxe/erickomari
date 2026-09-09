@@ -29,7 +29,7 @@ export const CREATOR_PROFILE = {
   linkedin: 'https://www.linkedin.com/in/erickomari/',
   twitter: 'https://x.com/eomari',
   experienceYears: '7+ Years',
-  totalProjects: 17,
+  totalProjects: 18,
   coreSkills: [
     'TypeScript & React 19 / Next.js',
     'AI Agents & LLM Orchestration',
@@ -102,6 +102,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     tags: ['CompTIA Security+', '3D Lab', 'Certification Prep', 'Cybersecurity Training', 'Vercel Live'],
     featured: true,
     badge: 'SECURITY+ CERT LAB',
+    stars: 0,
+    stats: 'Zero to Hero Training'
+  },
+  {
+    id: 'proj-ccna-zero-to-hero-3d-lab',
+    title: 'CCNA Zero to Hero 3D Lab',
+    tagline: 'From Zero to CCNA Certified — Interactive 3D Networking Training Lab',
+    description: 'An immersive 3D certification lab that guides learners from networking fundamentals to exam-ready CCNA proficiency through interactive Cisco networking scenarios, hands-on subnetting exercises, routing and switching simulations, and real-world topology labs.',
+    category: 'Education & Labs',
+    liveUrl: 'https://ccna3dlab.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/CCNA_Zero_to_Hero_3D_Lab_Project',
+    tags: ['CCNA', 'Cisco Networking', '3D Lab', 'Certification Prep', 'Vercel Live'],
+    featured: true,
+    badge: 'CCNA CERT LAB',
     stars: 0,
     stats: 'Zero to Hero Training'
   },
