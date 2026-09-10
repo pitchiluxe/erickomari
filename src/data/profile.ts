@@ -92,6 +92,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Real Directory Simulation'
   },
   {
+    id: 'proj-it-iam-helpdesk-big-labs',
+    title: 'IT / IAM / Help Desk Big Labs',
+    tagline: 'Windows 11-Style Desktop Unifying IT, IAM & Help Desk Labs in One Login',
+    description: 'A browser-based Windows 11-style desktop simulation that unifies IT, IAM, and Help Desk training into a single login experience. Three integrated labs cover Windows local users and NTFS access (lusrmgr, File Explorer, PowerShell), Microsoft Entra ID with MFA and Conditional Access, and a Service Desk/ITSM console with full ticket lifecycle. Every tool is an interactive replica backed by a real SQLite database, with intentional failure scenarios seeded for troubleshooting practice and an Ollama-powered AI lab assistant.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://itiamhelpdeskabs.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/IT_IAM_HelpDesk_Big_Labs',
+    tags: ['Windows 11 Desktop', 'Local Users & NTFS', 'Entra ID & MFA', 'ITSM Ticketing', 'Ollama AI', 'Vercel Live'],
+    featured: true,
+    badge: 'IT / IAM / HELP DESK LAB',
+    stars: 0,
+    stats: '3 Integrated Labs'
+  },
+  {
     id: 'proj-comptia-securityplus-3d-lab',
     title: 'CompTIA Security+ Zero to Hero 3D Lab',
     tagline: 'From Zero to Security+ Certified — Interactive 3D Cybersecurity Training Lab',
