@@ -92,6 +92,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Real Directory Simulation'
   },
   {
+    id: 'proj-iam-career-lab',
+    title: 'IAM Career Lab',
+    tagline: 'A Four-Year Progressive, Hands-On IAM Career Training Platform — Help Desk to IAM Architect',
+    description: 'A professional, hands-on training platform that takes learners through a complete four-year IAM career progression — Year 1 Help Desk/IT Support, Year 2 IAM Analyst, Year 3 IAM Engineer, and Year 4 IAM Architect. It coordinates real Hyper-V VMs, real Active Directory, real tickets, and a real Ollama AI instructor (never fakes AI responses). 44 progressive lab phases are unlocked sequentially by career gates requiring demonstrated competency, with 27 realistic tickets, a Socratic AI tutor scored against a five-category rubric, GitHub-ready portfolio artifact generation, localStorage progress tracking, and a native Windows Electron desktop app with auto-updates from GitHub Releases.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://iam-career-lab.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/IAM-Career-Lab',
+    tags: ['4-Year IAM Path', '44 Lab Phases', 'Real Hyper-V VMs', 'Ollama AI Tutor', 'Electron Desktop', 'MIT Licensed'],
+    featured: true,
+    badge: 'IAM CAREER PATH',
+    stars: 0,
+    stats: 'Help Desk to Architect'
+  },
+  {
     id: 'proj-it-iam-helpdesk-big-labs',
     title: 'IT / IAM / Help Desk Big Labs',
     tagline: 'Windows 11-Style Desktop Unifying IT, IAM & Help Desk Labs in One Login',
