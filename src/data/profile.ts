@@ -134,6 +134,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Zero to Hero Training'
   },
   {
+    id: 'proj-grc-range',
+    title: 'GRC Range',
+    tagline: 'Simulated Windows Server 2022 Desktop for GRC Audits, Risk Assessment & Remediation',
+    description: 'A simulated Windows Server 2022 desktop environment for practicing Governance, Risk, and Compliance (GRC) audits, risk assessment, and remediation across 7 major frameworks — PCI-DSS, HIPAA, GDPR, ISO 27001, NIST CSF, CIS, and SOC 2. Features 16+ interactive tools including an Audit Console for discovering vulnerabilities across users, firewall, passwords, and ACLs, a 5x5 risk matrix Risk Register with likelihood/impact scoring, a Remediation Console to fix ACLs and strengthen policies, an Evidence Pack for collecting audit evidence and generating reports, a working PowerShell terminal with GRC commands, an Ollama-powered AI GRC Senior Expert that guides without giving answers, and dynamic AI lab generation based on findings. Ships as a Vercel web build and cross-platform desktop installer (Windows, macOS, Linux) with auto-update.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://grc-range.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/grc-range',
+    tags: ['Windows Server 2022', '7 GRC Frameworks', 'Audit & Remediation', 'Risk Register', 'Ollama AI Expert', 'Vercel Live'],
+    featured: true,
+    badge: 'GRC TRAINING LAB',
+    stars: 0,
+    stats: '7 Compliance Frameworks'
+  },
+  {
     id: 'proj-ccna-zero-to-hero-3d-lab',
     title: 'CCNA Zero to Hero 3D Lab',
     tagline: 'From Zero to CCNA Certified — Interactive 3D Networking Training Lab',
