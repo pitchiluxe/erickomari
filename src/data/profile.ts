@@ -209,6 +209,7 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     tagline: 'Role-Ready Training for the Amazon IT Support Engineer I Position',
     description: 'A hands-on IT training platform that simulates the Amazon IT Support Engineer I role across 22 guided labs, with an AI tutor and live incident simulation covering the diagnostics, escalation, and ticket-handling workflows the job runs on.',
     category: 'Education & Labs',
+    liveUrl: 'https://amazon-it-support-engineer-lab.vercel.app/',
     githubUrl: 'https://github.com/pitchiluxe/Amazon_IT_Support_Engineer_I_Lab_Workflows',
     tags: ['IT Support Engineer', '22 Hands-On Labs', 'AI Tutor', 'Incident Simulation', 'TypeScript'],
     featured: true,
