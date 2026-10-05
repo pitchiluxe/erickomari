@@ -120,6 +120,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: '3 Integrated Labs'
   },
   {
+    id: 'proj-identityguardian-ai',
+    title: 'IdentityGuardian AI',
+    tagline: 'Explainable Identity Security — Know the Identity, Understand the Access',
+    description: 'An evidence-driven identity intelligence, governance and IAM training platform. It explains who can reach a resource and why, with every direct, nested, conditional and denied route backed by source evidence. Features include defensive exposure paths, a bitemporal time machine, policy-as-code with tests and impact simulation, what-if analysis, JIT access and independent two-person approval with MFA, machine and AI-agent governance, joiner/mover/leaver workflows, a grounded local Ollama investigator with verified citations and no execution authority, IAM labs, and a hash-chained, signed audit trail. Built with FastAPI, React, PostgreSQL row-level security and Keycloak OIDC; it runs locally with synthetic data.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://identityguardian.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/identityguardian',
+    tags: ['Effective Access Lineage', 'Exposure Paths', 'Time Machine', 'Policy-as-Code', 'Keycloak OIDC', 'PostgreSQL RLS', 'Ollama AI', 'Vercel Live'],
+    featured: true,
+    badge: 'IDENTITY INTELLIGENCE',
+    stars: 0,
+    stats: '21 Build Phases'
+  },
+  {
     id: 'proj-comptia-securityplus-3d-lab',
     title: 'CompTIA Security+ Zero to Hero 3D Lab',
     tagline: 'From Zero to Security+ Certified — Interactive 3D Cybersecurity Training Lab',
