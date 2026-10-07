@@ -307,7 +307,7 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     tagline: 'The Browser That Thinks with You — Context-Aware Smart Web Experience',
     description: 'An AI-native browser workspace combining real-time contextual synthesis, smart search summaries, active tab reasoning, and intelligent web research assistance.',
     category: 'AI & Machine Learning',
-    liveUrl: 'https://landing-sooty-omega-22.vercel.app/',
+    liveUrl: 'https://aihubbrowser.vercel.app/',
     githubUrl: 'https://github.com/pitchiluxe/aihub-browser',
     tags: ['Smart Browser', 'Contextual AI', 'Knowledge Synthesis', 'Web Assistant', 'Vercel Live'],
     featured: false,
