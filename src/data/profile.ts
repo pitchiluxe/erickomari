@@ -316,6 +316,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Context-Aware Browsing'
   },
   {
+    id: 'proj-aihub-dj',
+    title: 'AIHub DJ',
+    tagline: 'Your Club. Your Decks. Your AI DJ. — Free DJ App for Windows',
+    description: 'A free desktop DJ app for Windows: two real decks with scratching, pitch, sync, loops and hot cues, a three-band mixer, stems and effects, playing your own music and anything found with its built-in YouTube search. Describe a vibe and the AI DJ (local Ollama) builds the set, measures tempo and key, and mixes it live on a club stage whose lights follow the beat. Includes 28 looks with ten hardware designs — CDJ jog wheels, LED-ring controllers, screen decks and analog needle meters. Built with Electron, React and the Web Audio API.',
+    category: 'AI & Machine Learning',
+    liveUrl: 'https://pitchiluxe.github.io/aihub-dj/',
+    githubUrl: 'https://github.com/pitchiluxe/aihub-dj',
+    tags: ['DJ Software', 'AI DJ', 'YouTube Mixing', 'Stems & Effects', 'Ollama AI', 'Electron', 'Windows App'],
+    featured: true,
+    badge: 'AI DJ APP',
+    stars: 0,
+    stats: '28 Console Looks'
+  },
+  {
     id: 'proj-georgia-re',
     title: 'Georgia Real Estate Exam Prep',
     tagline: 'Pass Your GA Real Estate Exam with Confidence',
