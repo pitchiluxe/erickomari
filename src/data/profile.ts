@@ -81,15 +81,15 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     id: 'proj-meridian-iam-range',
     title: 'Meridian IAM Range',
     tagline: 'Hospital Identity & Access Management Workstation Simulator — Graded After Every Change',
-    description: 'A Windows-style IAM Operations workstation for a fictional health system. Work a ServiceDesk queue of joiners, movers, leavers, lockouts and social-engineering traps in Active Directory Users and Computers, PowerShell, Entra ID and Okta; every check is graded the moment you make a change. Includes Event Viewer with real Windows Security event IDs, an IAM Copilot mentor on local Ollama, Office apps for access reviews, and a Windows desktop app with auto-updates from GitHub Releases or a no-install web edition.',
+    description: 'A Windows-style IAM Operations workstation for a fictional health system. Work a ServiceDesk queue of joiners, movers, leavers, lockouts and social-engineering traps in Active Directory Users and Computers, PowerShell, Entra ID and Okta; every check is graded the moment you make a change. Includes identity governance with certification campaigns (SailPoint/Saviynt model), a privileged access vault (CyberArk model), SAML/OIDC troubleshooting with real AADSTS errors, Event Viewer with real Windows Security event IDs, an IAM Copilot mentor on local Ollama, Office apps for access reviews, and a Windows desktop app with auto-updates from GitHub Releases or a no-install web edition.',
     category: 'Cybersecurity & Labs',
     liveUrl: 'https://meridian-iam-range.vercel.app',
     githubUrl: 'https://github.com/pitchiluxe/identityforge-iam-lab',
-    tags: ['Active Directory', 'PowerShell', 'Entra ID / Okta', 'Healthcare IAM', 'Electron Desktop', 'Vercel Live'],
+    tags: ['Active Directory', 'Entra ID / Okta', 'IGA Certifications', 'PAM Vault', 'SAML / OIDC', 'Vercel Live'],
     featured: true,
     badge: 'HOSPITAL IAM RANGE',
     stars: 0,
-    stats: '17 Lab Types, 11 Traps'
+    stats: '23 Lab Types, 19 Traps'
   },
   {
     id: 'proj-iam-os',
