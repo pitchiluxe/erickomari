@@ -344,6 +344,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: '28 Console Looks'
   },
   {
+    id: 'proj-hearthlink',
+    title: 'HearthLink',
+    tagline: 'Private LAN/VPN Remote Desktop for Windows 11 — Paired, Approved, Never Unattended',
+    description: 'An original Windows 11 remote desktop app for your own PCs on a home or office network or VPN. Computers pair with a two-minute, single-use code after comparing 64-digit identity fingerprints; every view or control session is approved at the host, runs over pinned TLS, and can be revoked at any time. Includes multi-monitor switching, view-only or keyboard/mouse control, a firewall rule scoped to the local subnet, verified auto-updates from GitHub Releases, and an illustrated user manual. Built with .NET 10 Windows Forms and no third-party libraries.',
+    category: 'Productivity & Tools',
+    liveUrl: 'https://hearthlink.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/hearthlink',
+    tags: ['Remote Desktop', 'Windows 11', '.NET 10', 'Pinned TLS Pairing', 'Verified Updates', 'Vercel Live'],
+    featured: true,
+    badge: 'REMOTE DESKTOP APP',
+    stars: 0,
+    stats: 'Host-Approved Sessions'
+  },
+  {
     id: 'proj-georgia-re',
     title: 'Georgia Real Estate Exam Prep',
     tagline: 'Pass Your GA Real Estate Exam with Confidence',
