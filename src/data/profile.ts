@@ -372,6 +372,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Free Windows Installer'
   },
   {
+    id: 'proj-bible-app',
+    title: 'Bible App',
+    tagline: 'Read Scripture. Study Deeply. Remember It — AI-Powered Bible Reader for Windows',
+    description: 'A free Windows 10/11 Bible reader and study app with all 66 books bundled offline in four translations: the World English Bible, Louis Segond 1910, and kids editions in English and French. Each day opens on a fixed verse of the day you can meditate on, hear read aloud, save or learn by heart. Study courses, a classroom mode and a personal lab sit beside a spaced-repetition memorization room with five drill modes, streaks and badges. Full-text search, a force-directed graph of connected verses, and an AI study companion (local Ollama) that answers only from the bundled scripture. Built with Electron, React and TypeScript, with auto-updates from GitHub Releases.',
+    category: 'Education & Labs',
+    liveUrl: 'https://pitchiluxe-bible.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/bible-app',
+    tags: ['Bible Study', 'Scripture Memory', 'Ollama AI', 'Electron', 'Windows App', 'Vercel Live'],
+    featured: true,
+    badge: 'BIBLE STUDY APP',
+    stars: 0,
+    stats: '4 Bundled Translations'
+  },
+  {
     id: 'proj-georgia-re',
     title: 'Georgia Real Estate Exam Prep',
     tagline: 'Pass Your GA Real Estate Exam with Confidence',
