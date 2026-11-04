@@ -50,6 +50,20 @@ export const CREATOR_PROFILE = {
 
 export const CREATOR_PROJECTS: CreatorProject[] = [
   {
+    id: 'proj-grptabs',
+    title: 'GrpTabs',
+    tagline: 'Tabs for every window on Windows',
+    description: 'A free Windows app that puts a tab above every window. Drag one window onto another and they share a tab bar: click a tab to switch, drag it away to split. Hotkeys, exceptions, automatic grouping, and updates that install themselves.',
+    category: 'Productivity & Tools',
+    liveUrl: 'https://grouptabs.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/GrpTabs',
+    tags: ['Windows Desktop App', 'C# / .NET 10', 'Window Management', 'Auto-Updates'],
+    featured: true,
+    badge: 'WINDOWS APP',
+    stars: 0,
+    stats: 'Free for Windows 10 & 11'
+  },
+  {
     id: 'proj-scheduleplanner',
     title: 'SchedulePlanner 2.0',
     tagline: 'Full-Stack AI Productivity Suite — Agenda, Notes, Flashcards, CRM & Cold Outreach',
