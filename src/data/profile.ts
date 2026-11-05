@@ -8,7 +8,8 @@ export type CreatorProject = {
   description: string;
   category: string;
   liveUrl?: string;
-  githubUrl: string;
+  githubUrl?: string;
+  dashboardUrl?: string;
   tags: string[];
   featured: boolean;
   badge: string;
@@ -29,7 +30,7 @@ export const CREATOR_PROFILE = {
   linkedin: 'https://www.linkedin.com/in/erickomari/',
   twitter: 'https://x.com/eomari',
   experienceYears: '7+ Years',
-  totalProjects: 18,
+  totalProjects: 28,
   coreSkills: [
     'TypeScript & React 19 / Next.js',
     'AI Agents & LLM Orchestration',
@@ -50,6 +51,20 @@ export const CREATOR_PROFILE = {
 
 export const CREATOR_PROJECTS: CreatorProject[] = [
   {
+    id: 'proj-corpdesk',
+    title: 'CORP Desk',
+    tagline: 'A Windows-style workstation for practicing real IT support work',
+    description: 'Practice help desk work on a simulated Windows workstation: work tickets through their full lifecycle, manage users, groups and OUs in a directory, fix DNS and network faults, and run PowerShell-style commands in a safe sandbox. An optional IT Assistant runs on your own PC through local Ollama, and a Windows installer is available.',
+    category: 'Education & Labs',
+    liveUrl: 'https://corpdesk-it-support-lab.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/corpdesk-it-support-lab',
+    tags: ['IT Support Simulator', 'Active Directory Practice', 'PowerShell Sandbox', 'Local Ollama AI'],
+    featured: true,
+    badge: 'IT SUPPORT LAB',
+    stars: 0,
+    stats: 'Free in the browser · Windows installer'
+  },
+  {
     id: 'proj-grptabs',
     title: 'GrpTabs',
     tagline: 'Tabs for every window on Windows',
@@ -62,6 +77,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'WINDOWS APP',
     stars: 0,
     stats: 'Free for Windows 10 & 11'
+  },
+  {
+    id: 'proj-hirepro',
+    title: 'HirePro',
+    tagline: 'Resume-driven job search with local AI and reviewed applications',
+    description: 'Find relevant LinkedIn Easy Apply roles using your resume and job preferences. Local Ollama helps prepare answers, saved user answers can be reused, and every submission requires approval. The public landing page opens a private dashboard connected to a PC runner.',
+    category: 'AI & Machine Learning',
+    liveUrl: 'https://hirepro-omega.vercel.app',
+    dashboardUrl: 'https://hirepro-omega.vercel.app/dashboard',
+    tags: ['Local Ollama AI', 'LinkedIn Easy Apply', 'Reviewed Submissions', 'Installable Web App'],
+    featured: true,
+    badge: 'AI CAREER WORKSPACE',
+    stars: 0,
+    stats: 'Local AI · Human approval'
   },
   {
     id: 'proj-scheduleplanner',
