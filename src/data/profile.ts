@@ -51,18 +51,18 @@ export const CREATOR_PROFILE = {
 
 export const CREATOR_PROJECTS: CreatorProject[] = [
   {
-    id: 'proj-cognitivegeo',
-    title: 'CognitiveGeo',
-    tagline: 'Explore the world of AI on an interactive globe',
-    description: 'Discover AI models and their creators, explore source-linked data centers and construction projects, trace selected AI milestones, and investigate invention ideas with market and revenue scenarios. An interactive 3D globe brings representative locations into context, with live public model search, local Ollama generation in the Windows edition, and update notifications from GitHub Releases.',
-    category: 'AI & Machine Learning',
-    liveUrl: 'https://cognitive-geo.vercel.app/',
-    githubUrl: 'https://github.com/pitchiluxe/CognitiveGeo',
-    tags: ['3D AI Atlas', 'Data Center Map', 'Three.js', 'Local Ollama AI', 'Windows App', 'Vercel Live'],
+    id: 'proj-iam-lab-zero-to-hero',
+    title: 'IAM Lab From Zero To Hero',
+    tagline: 'Five IAM Portfolio Projects on a Real Active Directory, Synced to Your Own Entra ID and Okta',
+    description: 'A hands-on Identity and Access Management lab built around the five projects hiring managers ask about: automated joiner-mover-leaver in PowerShell, a Conditional Access framework with a business justification for every policy, access review and recertification, a non-human identity inventory, and an AD vs Entra ID vs Okta comparison. A one-click VirtualBox VM runs a real contoso.lab domain controller, synced to the learner\'s own Entra ID tenant through Entra Connect Sync and to their own Okta org through its API, so one leaver is disabled across all three platforms. Includes a local Ollama AI instructor, a Real Lab that previews every change before applying it, a Start Over reset that keeps the cloud connections, and a step-by-step manual with real screenshots.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://iam-lab-from-zero-to-hero.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/iam-lab-from-zero-to-hero',
+    tags: ['Active Directory JML', 'Entra Connect Sync', 'Okta API', 'Conditional Access', 'Ollama AI Instructor', 'Vercel Live'],
     featured: true,
-    badge: 'GLOBAL AI ATLAS',
+    badge: 'IAM PORTFOLIO LAB',
     stars: 0,
-    stats: 'Web atlas · Windows installer'
+    stats: '5 Projects, 3 Real Platforms'
   },
   {
     id: 'proj-corpdesk',
@@ -79,62 +79,6 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Free in the browser · Windows installer'
   },
   {
-    id: 'proj-grptabs',
-    title: 'GrpTabs',
-    tagline: 'Tabs for every window on Windows',
-    description: 'A free Windows app that puts a tab above every window. Drag one window onto another and they share a tab bar: click a tab to switch, drag it away to split. Hotkeys, exceptions, automatic grouping, and updates that install themselves.',
-    category: 'Productivity & Tools',
-    liveUrl: 'https://grouptabs.vercel.app',
-    githubUrl: 'https://github.com/pitchiluxe/GrpTabs',
-    tags: ['Windows Desktop App', 'C# / .NET 10', 'Window Management', 'Auto-Updates'],
-    featured: true,
-    badge: 'WINDOWS APP',
-    stars: 0,
-    stats: 'Free for Windows 10 & 11'
-  },
-  {
-    id: 'proj-hirepro',
-    title: 'HirePro',
-    tagline: 'Resume-driven job search with local AI and reviewed applications',
-    description: 'Find relevant LinkedIn Easy Apply roles using your resume and job preferences. Local Ollama helps prepare answers, saved user answers can be reused, and every submission requires approval. The public landing page opens a private dashboard connected to a PC runner.',
-    category: 'AI & Machine Learning',
-    liveUrl: 'https://hirepro-omega.vercel.app',
-    dashboardUrl: 'https://hirepro-omega.vercel.app/dashboard',
-    tags: ['Local Ollama AI', 'LinkedIn Easy Apply', 'Reviewed Submissions', 'Installable Web App'],
-    featured: true,
-    badge: 'AI CAREER WORKSPACE',
-    stars: 0,
-    stats: 'Local AI · Human approval'
-  },
-  {
-    id: 'proj-scheduleplanner',
-    title: 'SchedulePlanner 2.0',
-    tagline: 'Full-Stack AI Productivity Suite — Agenda, Notes, Flashcards, CRM & Cold Outreach',
-    description: 'A complete productivity ecosystem: an agenda calendar driven by an AI executive assistant (local Ollama with cloud free-tier failover), Markdown study notes with Obsidian vault export, SuperMemo SM-2 flashcards, a sales CRM with simulated cold-email outreach, an ID badge studio, and multi-tenant team organizations.',
-    category: 'Productivity & Tools',
-    liveUrl: 'https://scheduleplanner-rho.vercel.app',
-    githubUrl: 'https://github.com/pitchiluxe/SchedulePlanner',
-    tags: ['React 19', 'Express', 'Ollama Local AI', 'SM-2 Flashcards', 'CRM & Outreach', 'Vercel Live'],
-    featured: true,
-    badge: 'FLAGSHIP PRODUCTIVITY SUITE',
-    stars: 240,
-    stats: 'Local-First AI Engine'
-  },
-  {
-    id: 'proj-ccna',
-    title: 'CCNA Academy',
-    tagline: 'Comprehensive Cisco CCNA Certification Prep & Interactive Network Labs',
-    description: 'Master networking fundamentals, routing & switching protocols, IP subnetting, and Cisco exam objectives with interactive practice questions and realistic network topology labs.',
-    category: 'Education & Labs',
-    liveUrl: 'https://ccna-certification.vercel.app',
-    githubUrl: 'https://github.com/pitchiluxe/ccna-certification',
-    tags: ['CCNA Prep', 'Cisco Networking', 'Interactive Labs', 'Subnetting', 'Vercel Live'],
-    featured: true,
-    badge: 'CERTIFICATION ACADEMY',
-    stars: 142,
-    stats: '10,000+ Questions Solved'
-  },
-  {
     id: 'proj-meridian-iam-range',
     title: 'Meridian IAM Range',
     tagline: 'Hospital Identity & Access Management Workstation Simulator — Graded After Every Change',
@@ -147,20 +91,6 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'HOSPITAL IAM RANGE',
     stars: 0,
     stats: '23 Lab Types, 19 Traps'
-  },
-  {
-    id: 'proj-iam-lab-zero-to-hero',
-    title: 'IAM Lab From Zero To Hero',
-    tagline: 'Five IAM Portfolio Projects on a Real Active Directory, Synced to Your Own Entra ID and Okta',
-    description: 'A hands-on Identity and Access Management lab built around the five projects hiring managers ask about: automated joiner-mover-leaver in PowerShell, a Conditional Access framework with a business justification for every policy, access review and recertification, a non-human identity inventory, and an AD vs Entra ID vs Okta comparison. A one-click VirtualBox VM runs a real contoso.lab domain controller, synced to the learner\'s own Entra ID tenant through Entra Connect Sync and to their own Okta org through its API, so one leaver is disabled across all three platforms. Includes a local Ollama AI instructor, a Real Lab that previews every change before applying it, a Start Over reset that keeps the cloud connections, and a step-by-step manual with real screenshots.',
-    category: 'Cybersecurity & Labs',
-    liveUrl: 'https://iam-lab-from-zero-to-hero.vercel.app/',
-    githubUrl: 'https://github.com/pitchiluxe/iam-lab-from-zero-to-hero',
-    tags: ['Active Directory JML', 'Entra Connect Sync', 'Okta API', 'Conditional Access', 'Ollama AI Instructor', 'Vercel Live'],
-    featured: true,
-    badge: 'IAM PORTFOLIO LAB',
-    stars: 0,
-    stats: '5 Projects, 3 Real Platforms'
   },
   {
     id: 'proj-iam-os',
@@ -219,6 +149,90 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: '21 Build Phases'
   },
   {
+    id: 'proj-iam-sso-3d-lab',
+    title: 'IAM & SSO 3D Lab',
+    tagline: 'Learn Identity & Access Management the Way the Work Actually Looks — Walkable 3D Enterprise Campus, Socratic AI Tutor, Real Ticket Flow',
+    description: 'A job-ready 3D training lab for Identity & Access Management, SSO/SAML/OIDC, MFA, RBAC, access reviews, and incident response. Learners walk a fully modeled 3D enterprise campus — IAM Ops floor, SOC, ticket queue, and interactive workstation consoles — to complete thirteen enterprise scenarios covering federation, lifecycle, hardening, break/fix drills, and a capstone gated at 85%. A Socratic AI tutor escalates a nudge → question → approach → solution ladder instead of handing out answers, every ticket triage, escalation, and closure is logged and scored against a six-category 100-point rubric (execution, troubleshooting, least-privilege, documentation, evidence, communication), and the same codebase ships as a Three.js/WebGL browser build and a signed Windows Electron desktop installer. All credentials and entities are fictional; MIT-licensed.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://iamsso3dlab.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/iam-sso-3d-lab',
+    tags: ['Three.js / WebGL', '13 IAM Scenarios', 'Socratic AI Tutor', 'Ticket Triage & Scoring', 'Electron Desktop', 'MIT Licensed'],
+    featured: true,
+    badge: '3D IAM TRAINING LAB',
+    stars: 0,
+    stats: 'Walkable 3D Campus'
+  },
+  {
+    id: 'proj-cognitivegeo',
+    title: 'CognitiveGeo',
+    tagline: 'Explore the world of AI on an interactive globe',
+    description: 'Discover AI models and their creators, explore source-linked data centers and construction projects, trace selected AI milestones, and investigate invention ideas with market and revenue scenarios. An interactive 3D globe brings representative locations into context, with live public model search, local Ollama generation in the Windows edition, and update notifications from GitHub Releases.',
+    category: 'AI & Machine Learning',
+    liveUrl: 'https://cognitive-geo.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/CognitiveGeo',
+    tags: ['3D AI Atlas', 'Data Center Map', 'Three.js', 'Local Ollama AI', 'Windows App', 'Vercel Live'],
+    featured: true,
+    badge: 'GLOBAL AI ATLAS',
+    stars: 0,
+    stats: 'Web atlas · Windows installer'
+  },
+  {
+    id: 'proj-grptabs',
+    title: 'GrpTabs',
+    tagline: 'Tabs for every window on Windows',
+    description: 'A free Windows app that puts a tab above every window. Drag one window onto another and they share a tab bar: click a tab to switch, drag it away to split. Hotkeys, exceptions, automatic grouping, and updates that install themselves.',
+    category: 'Productivity & Tools',
+    liveUrl: 'https://grouptabs.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/GrpTabs',
+    tags: ['Windows Desktop App', 'C# / .NET 10', 'Window Management', 'Auto-Updates'],
+    featured: true,
+    badge: 'WINDOWS APP',
+    stars: 0,
+    stats: 'Free for Windows 10 & 11'
+  },
+  {
+    id: 'proj-hirepro',
+    title: 'HirePro',
+    tagline: 'Resume-driven job search with local AI and reviewed applications',
+    description: 'Find relevant LinkedIn Easy Apply roles using your resume and job preferences. Local Ollama helps prepare answers, saved user answers can be reused, and every submission requires approval. The public landing page opens a private dashboard connected to a PC runner.',
+    category: 'AI & Machine Learning',
+    liveUrl: 'https://hirepro-omega.vercel.app',
+    dashboardUrl: 'https://hirepro-omega.vercel.app/dashboard',
+    tags: ['Local Ollama AI', 'LinkedIn Easy Apply', 'Reviewed Submissions', 'Installable Web App'],
+    featured: true,
+    badge: 'AI CAREER WORKSPACE',
+    stars: 0,
+    stats: 'Local AI · Human approval'
+  },
+  {
+    id: 'proj-scheduleplanner',
+    title: 'SchedulePlanner 2.0',
+    tagline: 'Full-Stack AI Productivity Suite — Agenda, Notes, Flashcards, CRM & Cold Outreach',
+    description: 'A complete productivity ecosystem: an agenda calendar driven by an AI executive assistant (local Ollama with cloud free-tier failover), Markdown study notes with Obsidian vault export, SuperMemo SM-2 flashcards, a sales CRM with simulated cold-email outreach, an ID badge studio, and multi-tenant team organizations.',
+    category: 'Productivity & Tools',
+    liveUrl: 'https://scheduleplanner-rho.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/SchedulePlanner',
+    tags: ['React 19', 'Express', 'Ollama Local AI', 'SM-2 Flashcards', 'CRM & Outreach', 'Vercel Live'],
+    featured: true,
+    badge: 'FLAGSHIP PRODUCTIVITY SUITE',
+    stars: 240,
+    stats: 'Local-First AI Engine'
+  },
+  {
+    id: 'proj-ccna',
+    title: 'CCNA Academy',
+    tagline: 'Comprehensive Cisco CCNA Certification Prep & Interactive Network Labs',
+    description: 'Master networking fundamentals, routing & switching protocols, IP subnetting, and Cisco exam objectives with interactive practice questions and realistic network topology labs.',
+    category: 'Education & Labs',
+    liveUrl: 'https://ccna-certification.vercel.app',
+    githubUrl: 'https://github.com/pitchiluxe/ccna-certification',
+    tags: ['CCNA Prep', 'Cisco Networking', 'Interactive Labs', 'Subnetting', 'Vercel Live'],
+    featured: true,
+    badge: 'CERTIFICATION ACADEMY',
+    stars: 142,
+    stats: '10,000+ Questions Solved'
+  },
+  {
     id: 'proj-comptia-securityplus-3d-lab',
     title: 'CompTIA Security+ Zero to Hero 3D Lab',
     tagline: 'From Zero to Security+ Certified — Interactive 3D Cybersecurity Training Lab',
@@ -259,20 +273,6 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'CCNA CERT LAB',
     stars: 0,
     stats: 'Zero to Hero Training'
-  },
-  {
-    id: 'proj-iam-sso-3d-lab',
-    title: 'IAM & SSO 3D Lab',
-    tagline: 'Learn Identity & Access Management the Way the Work Actually Looks — Walkable 3D Enterprise Campus, Socratic AI Tutor, Real Ticket Flow',
-    description: 'A job-ready 3D training lab for Identity & Access Management, SSO/SAML/OIDC, MFA, RBAC, access reviews, and incident response. Learners walk a fully modeled 3D enterprise campus — IAM Ops floor, SOC, ticket queue, and interactive workstation consoles — to complete thirteen enterprise scenarios covering federation, lifecycle, hardening, break/fix drills, and a capstone gated at 85%. A Socratic AI tutor escalates a nudge → question → approach → solution ladder instead of handing out answers, every ticket triage, escalation, and closure is logged and scored against a six-category 100-point rubric (execution, troubleshooting, least-privilege, documentation, evidence, communication), and the same codebase ships as a Three.js/WebGL browser build and a signed Windows Electron desktop installer. All credentials and entities are fictional; MIT-licensed.',
-    category: 'Cybersecurity & Labs',
-    liveUrl: 'https://iamsso3dlab.vercel.app/',
-    githubUrl: 'https://github.com/pitchiluxe/iam-sso-3d-lab',
-    tags: ['Three.js / WebGL', '13 IAM Scenarios', 'Socratic AI Tutor', 'Ticket Triage & Scoring', 'Electron Desktop', 'MIT Licensed'],
-    featured: true,
-    badge: '3D IAM TRAINING LAB',
-    stars: 0,
-    stats: 'Walkable 3D Campus'
   },
   {
     id: 'proj-techbench',
@@ -470,7 +470,6 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stars: 64,
     stats: 'High Pass Rate Prep'
   },
-
   {
     id: 'proj-congo',
     title: 'Congo Solution',
