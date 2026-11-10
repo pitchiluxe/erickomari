@@ -51,6 +51,20 @@ export const CREATOR_PROFILE = {
 
 export const CREATOR_PROJECTS: CreatorProject[] = [
   {
+    id: 'proj-cognitivegeo',
+    title: 'CognitiveGeo',
+    tagline: 'Explore the world of AI on an interactive globe',
+    description: 'Discover AI models and their creators, explore source-linked data centers and construction projects, trace selected AI milestones, and investigate invention ideas with market and revenue scenarios. An interactive 3D globe brings representative locations into context, with live public model search, local Ollama generation in the Windows edition, and update notifications from GitHub Releases.',
+    category: 'AI & Machine Learning',
+    liveUrl: 'https://cognitive-geo.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/CognitiveGeo',
+    tags: ['3D AI Atlas', 'Data Center Map', 'Three.js', 'Local Ollama AI', 'Windows App', 'Vercel Live'],
+    featured: true,
+    badge: 'GLOBAL AI ATLAS',
+    stars: 0,
+    stats: 'Web atlas · Windows installer'
+  },
+  {
     id: 'proj-corpdesk',
     title: 'CORP Desk',
     tagline: 'A Windows-style workstation for practicing real IT support work',
@@ -133,6 +147,20 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'HOSPITAL IAM RANGE',
     stars: 0,
     stats: '23 Lab Types, 19 Traps'
+  },
+  {
+    id: 'proj-iam-lab-zero-to-hero',
+    title: 'IAM Lab From Zero To Hero',
+    tagline: 'Five IAM Portfolio Projects on a Real Active Directory, Synced to Your Own Entra ID and Okta',
+    description: 'A hands-on Identity and Access Management lab built around the five projects hiring managers ask about: automated joiner-mover-leaver in PowerShell, a Conditional Access framework with a business justification for every policy, access review and recertification, a non-human identity inventory, and an AD vs Entra ID vs Okta comparison. A one-click VirtualBox VM runs a real contoso.lab domain controller, synced to the learner\'s own Entra ID tenant through Entra Connect Sync and to their own Okta org through its API, so one leaver is disabled across all three platforms. Includes a local Ollama AI instructor, a Real Lab that previews every change before applying it, a Start Over reset that keeps the cloud connections, and a step-by-step manual with real screenshots.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://iam-lab-from-zero-to-hero.vercel.app/',
+    githubUrl: 'https://github.com/pitchiluxe/iam-lab-from-zero-to-hero',
+    tags: ['Active Directory JML', 'Entra Connect Sync', 'Okta API', 'Conditional Access', 'Ollama AI Instructor', 'Vercel Live'],
+    featured: true,
+    badge: 'IAM PORTFOLIO LAB',
+    stars: 0,
+    stats: '5 Projects, 3 Real Platforms'
   },
   {
     id: 'proj-iam-os',
