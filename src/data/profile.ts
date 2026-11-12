@@ -65,6 +65,19 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: '5 Projects, 3 Real Platforms'
   },
   {
+    id: 'proj-linux-iam-lab-zero-to-hero',
+    title: 'Linux IAM Lab From Zero To Hero',
+    tagline: 'Grant, Troubleshoot, Audit and Revoke Access on Your Own Ubuntu Server, Checked as the Affected Users',
+    description: 'A hands-on Linux Identity and Access Management course on a dedicated Ubuntu Server 24.04 VirtualBox VM that opens to its own Linux desktop. Nine modules and 32 ticket-based exercises cover the account lifecycle, file permissions and ACLs, least-privilege sudo, SSH keys and hardening, PAM and an in-VM OpenLDAP directory through SSSD, auditd, and a Bash access-review script, ending in a four-stage capstone: onboard a contractor, fix a login broken differently for every learner, revoke everything, and hand over a test report. Every check tests real access as the affected users, allowed and denied. Includes one-click Start, Stop and Reset shortcuts, a local Ollama AI tutor that never runs commands or sees secrets, break-glass recovery, and a manual with real screenshots.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://linux-iam-lab-from-zero-to-hero.vercel.app/',
+    tags: ['Ubuntu Server VM', 'sudo & SSH Least Privilege', 'LDAP / SSSD / PAM', 'auditd', 'Ollama AI Tutor', 'Vercel Live'],
+    featured: true,
+    badge: 'LINUX IAM LAB',
+    stars: 0,
+    stats: '9 Modules, 32 Tickets, 1 Capstone'
+  },
+  {
     id: 'proj-corpdesk',
     title: 'CORP Desk',
     tagline: 'A Windows-style workstation for practicing real IT support work',
