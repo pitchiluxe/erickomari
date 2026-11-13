@@ -51,19 +51,6 @@ export const CREATOR_PROFILE = {
 
 export const CREATOR_PROJECTS: CreatorProject[] = [
   {
-    id: 'proj-dialtone-tv',
-    title: 'Dialtone TV',
-    tagline: 'Watch free live TV from around the world on a retro television',
-    description: 'Browse official channels by country, language, or category and tune in through a working 1970s or 1980s-style CRT. Save favorites, switch between 13 cabinet designs, and watch on the web or with the Windows and Mac apps.',
-    category: 'Web Applications',
-    liveUrl: 'https://dialtone-tv.vercel.app/',
-    tags: ['Live TV', 'Retro CRT', 'HLS Streaming', 'Windows', 'macOS'],
-    featured: true,
-    badge: 'RETRO LIVE TV',
-    stars: 0,
-    stats: 'Web · Windows · macOS'
-  },
-  {
     id: 'proj-iam-lab-zero-to-hero',
     title: 'IAM Lab From Zero To Hero',
     tagline: 'Five IAM Portfolio Projects on a Real Active Directory, Synced to Your Own Entra ID and Okta',
@@ -188,6 +175,19 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: '3D IAM TRAINING LAB',
     stars: 0,
     stats: 'Walkable 3D Campus'
+  },
+  {
+    id: 'proj-dialtone-tv',
+    title: 'Dialtone TV',
+    tagline: 'Watch free live TV from around the world on a retro television',
+    description: 'Browse official channels by country, language, or category and tune in through a working 1970s or 1980s-style CRT. Save favorites, switch between 13 cabinet designs, and watch on the web or with the Windows and Mac apps.',
+    category: 'Web Applications',
+    liveUrl: 'https://dialtone-tv.vercel.app/',
+    tags: ['Live TV', 'Retro CRT', 'HLS Streaming', 'Windows', 'macOS'],
+    featured: true,
+    badge: 'RETRO LIVE TV',
+    stars: 0,
+    stats: 'Web · Windows · macOS'
   },
   {
     id: 'proj-cognitivegeo',
