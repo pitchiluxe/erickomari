@@ -30,7 +30,7 @@ export const CREATOR_PROFILE = {
   linkedin: 'https://www.linkedin.com/in/erickomari/',
   twitter: 'https://x.com/eomari',
   experienceYears: '7+ Years',
-  totalProjects: 28,
+  totalProjects: 29,
   coreSkills: [
     'TypeScript & React 19 / Next.js',
     'AI Agents & LLM Orchestration',
@@ -91,6 +91,19 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     badge: 'IT SUPPORT LAB',
     stars: 0,
     stats: 'Free in the browser · Windows installer'
+  },
+  {
+    id: 'proj-iam-guardian-pro',
+    title: 'IAM Guardian Pro',
+    tagline: 'See Who Can Really Control Your Active Directory, and Fix It Without One Person Ever Acting Alone',
+    description: 'A Windows desktop app and management service for Active Directory identity governance. More than 30 read-only checks find stale accounts, leavers who can still sign in, admin rights hidden in nested groups, Kerberoastable and delegated accounts, risky Group Policies and failing domain controllers, each with evidence, business impact and the fix. Onboarding, transfers, offboarding and fixes follow a three-person rule (propose, approve, execute) with a hash-chained, tamper-evident audit log, a least-privilege gMSA service account and an optional local Ollama assistant. Tested against a two-VM Active Directory lab with 100 seeded employees; ships as a Windows installer with in-app update notices and an illustrated lab manual.',
+    category: 'Cybersecurity & Labs',
+    liveUrl: 'https://iam-guardian-pro.vercel.app/',
+    tags: ['Active Directory', 'Identity Governance', 'Access Risk Scanning', 'Separation of Duties', '.NET 10 / WPF', 'Windows Installer'],
+    featured: true,
+    badge: 'AD GOVERNANCE APP',
+    stars: 0,
+    stats: '30+ Checks · 3-Person Rule'
   },
   {
     id: 'proj-meridian-iam-range',
