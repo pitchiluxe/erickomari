@@ -30,7 +30,7 @@ export const CREATOR_PROFILE = {
   linkedin: 'https://www.linkedin.com/in/erickomari/',
   twitter: 'https://x.com/eomari',
   experienceYears: '7+ Years',
-  totalProjects: 29,
+  totalProjects: 30,
   coreSkills: [
     'TypeScript & React 19 / Next.js',
     'AI Agents & LLM Orchestration',
@@ -231,6 +231,18 @@ export const CREATOR_PROJECTS: CreatorProject[] = [
     stats: 'Free for Windows 10 & 11'
   },
   {
+    id: 'proj-desktop-pro-organizer',
+    title: 'Desktop Pro Organizer',
+    tagline: 'A tidy Windows desktop: every icon in a named box that stays exactly where you put it',
+    description: 'A Windows 11 desktop organizer that sorts every shortcut, file and folder into movable boxes by category on first launch, with a box of its own for each lab. Boxes snap to an even grid, remember their position after every restart, and can be renamed, locked, recoloured or rolled up from a right-click menu; double-click the desktop to hide or show them all. Includes cleanup for broken shortcuts and duplicates, desktop insights, daily layout backups, HD and AI wallpapers from a description, and update notifications from an access-code gated download site.',
+    category: 'Productivity & Tools',
+    liveUrl: 'https://desktop-pro-organizer.vercel.app',
+    tags: ['Windows Desktop App', 'C# / .NET 8 / WPF', 'Desktop Organization', 'Auto-Updates'],
+    featured: true,
+    badge: 'WINDOWS APP',
+    stars: 0,
+    stats: 'Windows 11 · Early access'
+  },  {
     id: 'proj-hirepro',
     title: 'HirePro',
     tagline: 'Resume-driven job search with local AI and reviewed applications',
